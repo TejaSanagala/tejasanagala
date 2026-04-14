@@ -257,6 +257,36 @@ a {
   margin: 0;
 }
 
+.certificate-card {
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--panel-soft);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.certificate-card img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #fff;
+}
+
+.certificate-copy {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.certificate-copy h4 {
+  margin: 0 0 0.55rem;
+  font-size: 1rem;
+}
+
+.certificate-copy p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
